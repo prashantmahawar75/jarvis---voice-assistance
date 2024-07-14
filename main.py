@@ -22,10 +22,10 @@ from client import get_generated_text
 
 recognizer = sr.Recognizer()# Recognizer ek class hai jo speech recognitaion me help karengi
 engine = pyttsx3.init()
-newsapi = "a6f6e8aa733b4fbfb3ad2b0ff17ccb10"
+newsapi = "your api"
 
 # Your Hugging Face API token
-api_token = "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"
+api_token = "your api"
 # Model name you want to use
 model_name = "gpt2"
 # Prompt text
